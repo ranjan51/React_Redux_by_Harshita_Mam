@@ -1,0 +1,35 @@
+a{font-size:14px;
+      font-weight:700
+    }
+    .superNav {
+      font-size:13px;
+    }
+    .form-control {
+      outline:none !important;
+      box-shadow: none !important;
+    }
+    @media screen and (max-width:540px){
+      .centerOnMobile {
+        text-align:center
+      }
+    }
+    .custom-link {
+        display: inline-block;
+        /* padding: 10px 20px;  */
+        border-radius: 5px; /* Adjust the border radius as needed */
+        background-color: #1da5ff; /* Change the background color to your desired color */
+        color: white; /* Text color */
+        text-decoration: none; /* Remove underline */
+
+        
+      }
+      
+      .custom-link:hover {
+        box-shadow: 0px 0px 20px rgba(218, 95, 95, 0.7); /* Adjust the hover box shadow */
+      }
+      .white-text {
+        color: white;
+      }
+      span{
+        cursor: pointer;
+      }
